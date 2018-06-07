@@ -1,0 +1,23 @@
+{
+  "name": "lintboard",
+  "version": "1.0.0",
+  "description": "A simple tool to make onboarding ESLint to existing JavaScript projects easier.",
+  "main": "index.js",
+  "author": "Kamuela Franco <kamuela.franco@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "lintboard": "./index.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "commander": "^2.15.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
